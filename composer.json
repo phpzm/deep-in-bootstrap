@@ -1,0 +1,7 @@
+{
+    "name": "william/bootstrap",
+    "require": {},
+    "autoload": {
+      "files": ["bootstrap/environment.php", "bootstrap/constant.php"]
+    }
+}

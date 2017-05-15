@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+
+  deep-in-5.apache:
+    image: webdevops/php-apache:alpine-php7
+    container_name: deep-in-5.apache
+    environment:
+      WEB_DOCUMENT_ROOT: /var/app/public
+    volumes:
+      - .:/var/app
+    ports:
+      - "8000:80"
